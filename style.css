@@ -6,25 +6,44 @@ body {
   margin:0;
 }
 
+.center {
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+  }
+
+  .centeredText {
+
+    
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(0, 255, 0);
+ 
+}
+
+.textItem {
+    
+    color:white;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.textItem > p {
+  color:white;
+  font-size:18px;
+  font-weight: normal; 
+}
+
 #frameOne {
    background-color: rgba(31, 28, 28, 0.5);
-   
-   
-   height: 550px;
-   width: 800px; 
+   height: 800px;
+   width: 1200px; 
    position: absolute;
    border-radius: 15px;
    margin:auto;
  
 }
-
-.center {
-  position: absolute;
-  top: 50%; 
-  right: 50%;
-  transform: translate(50%,-50%);
-}
-
 
 
 #logo {
@@ -34,6 +53,7 @@ body {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 
@@ -55,14 +75,14 @@ body {
     margin-left:auto;
     margin-right:auto; 
     margin-align:center;
-    width:700px;
-    margin-bottom: 18px;
+    width:1100px;
+    margin-bottom: 30px;
     
     
 }
 
 #buttonFrame > p{
-  
+    
     text-align: center;
     border: 4px solid;
     border-color: rgb(0, 255, 0);
@@ -79,36 +99,13 @@ body {
     line-height: 50%;
 
 }
-.centeredText {
 
-    
-    text-align: center;
-    border: 2px solid;
-    border-color: rgb(0, 255, 0);
- 
-}
-
-
-
-
-.textItem {
-    
-    color:white;
-    font-size:18px;
-    font-weight: bold;
-}
-
-.textItem > p {
-  color:white;
-  font-size:12px;
-  font-weight: normal; 
-}
 
 #bar {
     position:relative;
     display:block;
     height:27px;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 
 }
